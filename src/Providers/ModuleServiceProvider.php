@@ -1,13 +1,6 @@
 <?php
-/**
- * ModuleAlias: install
- * ModuleName: install
- * Description: This is the first file run of module. You can assign bootstrap or register module Services
- * @author: noname
- * @version: 1.0
- * @package: PackagesCMS
- */
-namespace Packages\CmsDev\Providers;
+
+namespace Phambinh\CmsDev\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

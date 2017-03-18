@@ -1,9 +1,9 @@
 <?php
 
-namespace Packages\CmsDev\Console\Commands;
+namespace Phambinh\CmsDev\Console\Commands;
 
 use Illuminate\Support\Str;
-use Packages\CmsDev\Support\Abstracts\Generator;
+use Phambinh\CmsDev\Support\Abstracts\Generator;
 
 class MakeListener extends Generator
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Packages\CmsDev\Console\Commands;
+namespace Phambinh\CmsDev\Console\Commands;
 
 use Illuminate\Console\Command;
 
@@ -42,8 +42,8 @@ class MakePackage extends Command
     public function handle()
     {
         $this->name = $this->argument('name');
-        $this->packageDirname = str_slug($this->name); // Tên của thư mục packages // ten-packages
-        $this->packageNamespace = package_namespace($this->name); // Namespace của packages // Packages/TenPackages
+        $this->packageDirname = str_slug($this->name);
+        $this->packageNamespace = package_namespace($this->name);
 
         if (!$this->packageExists()) {
             \File::copyDirectory($this->getSourcePackage(), $this->getDestinationPackage());

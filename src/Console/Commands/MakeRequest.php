@@ -1,8 +1,8 @@
 <?php
 
-namespace Packages\CmsDev\Console\Commands;
+namespace Phambinh\CmsDev\Console\Commands;
 
-use Packages\CmsDev\Support\Abstracts\Generator;
+use Phambinh\CmsDev\Support\Abstracts\Generator;
 
 class MakeRequest extends Generator
 {
